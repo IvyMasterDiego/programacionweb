@@ -78,6 +78,7 @@ body .racer .wrapper .post .princ .princ-text .lineal p {
     font-size: 15px;
     color: #f7f7f7;
     text-align: justify;
+    font-family: TitilliumWeb;
 }
 
 body .racer .wrapper .post .princ:hover .princ-text {

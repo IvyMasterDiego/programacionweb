@@ -67,9 +67,9 @@ body .driver .wrapper a .img .info h4 {
 }
 
 body .driver .wrapper a .img .info h5 {
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 100;
-    font-family: Formula1;
+    font-family: TitilliumWeb;
     text-transform: uppercase;
     color: #000;
 }
