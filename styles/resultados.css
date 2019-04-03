@@ -1,0 +1,32 @@
+body .resultados {
+    width: 100%;
+}
+
+body .resultados table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+body .resultados table thead {
+    background-color: #15151E;
+    border: 0px;
+}
+
+body .resultados table thead tr th {
+    color: #fff;
+    font-family: Formula1;
+    padding: 15px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+body .resultados table tbody tr td {
+    font-family: TitilliumWeb;
+    font-size: 15px;
+    padding: 10px;
+}
+
+body .resultados table tbody tr:nth-child(even) {
+    background-color: #bbbbbb;
+}
