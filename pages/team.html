@@ -5,50 +5,29 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <!--Jquery y otros -->
-    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
-    <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    </script>
-    <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
-    </script>
-    <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
-    </script>
-    <!--Bootstrap -->
-    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
-    <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    </script>
     <!--Agregando estilos -->
     <link href="../styles/index.css" rel="stylesheet">
     <link href="../styles/team.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-    <!-- VueJs-->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <!-- FireBase -->
-    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
-    <link rel="icon" sizes="16x16" href="../favicon.png" />
+    <link rel="stylesheet" href="../styles/footer.css">
     <title>Equipos</title>
 </head>
 
 <body>
     <!--Barra de navegacion-->
-    <nav class="site-header sticky-top py-1" style="width: 100%">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-            <a class="py-2 d-none d-md-inline-block" href="../index.html"><img id="fotico"
-                    src="../resources/formula.png" alt="Formula 1" width="90" /> </a>
-            <a class="py-2 d-none d-md-inline-block" href="racers.html">Racer</a>
-            <a class="py-2 d-none d-md-inline-block" href="driver.html">Driver</a>
-            <a class="py-2 d-none d-md-inline-block" href="team.html">Teams</a>
+    <header>
+        <div class="logo">
+            <a class="" href="../index.html">
+                <img src="../resources/formula.png" alt="Logo">
+            </a>
         </div>
-    </nav>
+        <nav>
+            <a href="racers.html">Races</a>
+            <a href="driver.html">Drivers</a>
+            <a href="team.html">Teams</a>
+        </nav>
+    </header>
 
     <!--Contenido-->
     <!-- Equipo 1-->
@@ -56,7 +35,7 @@
         <section class="block">
             <h1>Formula 1® Teams</h1>
             <a href="mercedes.html">
-                <div class="info" style="border-right: 8px solid #00d2be;">
+                <div class="info" style="border-right: 10px solid #00d2be;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -105,7 +84,7 @@
                 <div class="img">
                     <div class="imgfondo" style="background-image: url('../resources/segunda.jpg');"></div>
                 </div>
-                <div class="info" style="border-left: 8px solid #DC0000;">
+                <div class="info" style="border-left: 10px solid #DC0000;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -148,7 +127,7 @@
     <div class="equipo">
         <section class="block">
             <a href="redbull.html">
-                <div class="info" style="border-right: 8px solid #1E41FF;">
+                <div class="info" style="border-right: 10px solid #1E41FF;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -197,7 +176,7 @@
                 <div class="img">
                     <div class="imgfondo" style="background-image: url('../resources/sexta.jpg');"></div>
                 </div>
-                <div class="info" style="border-left: 8px solid #9B0000;">
+                <div class="info" style="border-left: 10px solid #9B0000;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -240,7 +219,7 @@
     <div class="equipo">
         <section class="block">
             <a href="mclaren.html">
-                <div class="info" style="border-right: 8px solid #FF8700;">
+                <div class="info" style="border-right: 10px solid #FF8700;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -289,7 +268,7 @@
                 <div class="img">
                     <div class="imgfondo" style="background-image: url('../resources/cuarta.jpg');"></div>
                 </div>
-                <div class="info" style="border-left: 8px solid #BD9E57;">
+                <div class="info" style="border-left: 10px solid #BD9E57;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -332,7 +311,7 @@
     <div class="equipo">
         <section class="block">
             <a href="renault.html">
-                <div class="info" style="border-right: 8px solid #FFF500;">
+                <div class="info" style="border-right: 10px solid #FFF500;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -381,7 +360,7 @@
                 <div class="img">
                     <div class="imgfondo" style="background-image: url('../resources/octava.jpg');"></div>
                 </div>
-                <div class="info" style="border-left: 8px solid #469BFF;">
+                <div class="info" style="border-left: 10px solid #469BFF;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -424,7 +403,7 @@
     <div class="equipo">
         <section class="block">
             <a href="racingpoint.html">
-                <div class="info" style="border-right: 8px solid #F596C8;">
+                <div class="info" style="border-right: 10px solid #F596C8;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -473,7 +452,7 @@
                 <div class="img">
                     <div class="imgfondo" style="background-image: url('../resources/decima.jpg');"></div>
                 </div>
-                <div class="info" style="border-left: 8px solid #FFFFFF;">
+                <div class="info" style="border-left: 10px solid #FFFFFF;">
                     <div class="c-info">
                         <div class="left">
                             <div class="panel-up">
@@ -483,7 +462,7 @@
                             <div class="panel-mid">
                                 <div class="lineal">
                                     <img src="../icons/helmet.ico" alt="">
-                                    <p>Robert Kubica</p>
+                                    <p>Robert Kuubica</p>
                                 </div>
                                 <div class="lineal">
                                     <img src="../icons/helmet.ico" alt="">
@@ -513,92 +492,54 @@
     </div>
 
     <!--Footer-->
-    <!-- <footer class="contenedor py-5 colorfurel" width="500">
-        <div class="row">
-            <div class="col-12 col-md">
-                <a class="py-2" href="#">
-                    <a class="py-2 d-none d-md-inline-block" href="">
-                        <img alt="Formula 1" src="../resources/ff.png" style="margin-left: 100px;" width="90" />
-                    </a>
-                </a>
-                <small class="d-block mb-3 text-muted" style="margin-left: 100px;">© 2017-2019</small>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="info">
+                <h2>Mas acerca de Formula 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsum mollitia repudiandae facere
+                    quo eos harum beatae libero praesentium ducimus! Sint possimus totam fuga suscipit dolore deleniti!
+                    At, nostrum quos.</p>
             </div>
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <a class="text-muted" href="#">Cool stuff</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Random feature</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Team feature</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Stuff for developers</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Another one</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Last time</a>
-                    </li>
-                </ul>
+            <div class="redes">
+                <h2>Mantente conectado</h2>
+                <table>
+                    <tr>
+                        <td><img src="../resources/ic-fc.ico" alt=""></td>
+                        <td>Facebook</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../resources/ic-tw.ico" alt=""></td>
+                        <td>Twitter</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../resources/ic-ins.ico" alt=""></td>
+                        <td>Instagram</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../resources/ic-yt.ico" alt=""></td>
+                        <td>Youtube</td>
+                    </tr>
+                </table>
             </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <a class="text-muted" href="#">Resource</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Resource name</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Another resource</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Final resource</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <a class="text-muted" href="#">Business</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Education</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Government</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Gaming</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li>
-                        <a class="text-muted" href="#">Team</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Locations</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Privacy</a>
-                    </li>
-                    <li>
-                        <a class="text-muted" href="#">Terms</a>
-                    </li>
-                </ul>
+            <div class="contacto">
+                <h2>Infomacion</h2>
+                <table>
+                    <tr>
+                        <td><img src="../resources/ic-hm.ico" alt=""></td>
+                        <td>Diego Enrique Lobato Guzman</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../resources/ic-phone.ico" alt=""></td>
+                        <td>809-501-0741</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../resources/ic-mail.ico" alt=""></td>
+                        <td>20174908@ilta.edu.do</td>
+                    </tr>
+                </table>
             </div>
         </div>
-    </footer> -->
+    </div>
 </body>
 
 </html>

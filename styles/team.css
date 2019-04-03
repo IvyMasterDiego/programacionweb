@@ -1,13 +1,3 @@
-* {
-    text-decoration: none;
-    color: black;
-}
-
-body .site-header a:hover {
-    color: #15151E;
-    text-decoration: none;
-}
-
 body .equipo {
     margin-bottom: 5px;
     width: 100%;
@@ -24,6 +14,7 @@ body .equipo .block {
 
 body .equipo .block h1 {
     margin: 30px 0px;
+    padding-top: 50px;
     margin-left: 35px;
     text-align: left;
     font-family: Formula1;
@@ -93,8 +84,6 @@ body .equipo .block a .info .c-info .left .panel-mid .lineal p {
     margin-left: 15px;
 }
 
-body .equipo .block a .info .c-info .left .panel-bot {}
-
 body .equipo .block a .info .c-info .left .panel-bot img {
     margin-left: 15px;
     width: 65%;
@@ -135,7 +124,7 @@ body .equipo .block a .info .c-info .right .panels p {
 }
 
 body .equipo .block a .img {
-    width: 50%;
+    width: 49%;
     overflow: hidden;
 }
 
